@@ -134,52 +134,6 @@ if (isset($_SESSION['user_id'])) {
                     </div>
                 </div>
 
-                <!-- Special Offers -->
-                <section class="py-8 bg-base-200">
-                    <div class="container mx-auto px-4">
-                        <div class="flex overflow-x-auto gap-4 py-4 px-2">
-                            <!-- Special Offer 1 -->
-                            <div class="flex-none w-80">
-                                <div class="card bg-primary text-primary-content">
-                                    <div class="card-body">
-                                        <h3 class="card-title">New User Special</h3>
-                                        <p>Get 20% off on your first order!</p>
-                                        <?php if (!isset($_SESSION['user_id'])): ?>
-                                            <div class="card-actions justify-end">
-                                                <a href="user/register.php" class="btn btn-sm">Register Now</a>
-                                            </div>
-                                        <?php endif; ?>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Special Offer 2 -->
-                            <div class="flex-none w-80">
-                                <div class="card bg-secondary text-secondary-content">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Free Delivery</h3>
-                                        <p>On orders above RM500</p>
-                                        <div class="card-actions justify-end">
-                                            <a href="user/menu.php" class="btn btn-sm">Order Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Special Offer 3 -->
-                            <div class="flex-none w-80">
-                                <div class="card bg-accent text-accent-content">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Weekend Special</h3>
-                                        <p>15% off on family meals</p>
-                                        <div class="card-actions justify-end">
-                                            <a href="user/menu.php" class="btn btn-sm">View Deals</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <!-- Categories Section -->
                 <section class="py-16 bg-base-200">
                     <div class="container mx-auto px-4">
