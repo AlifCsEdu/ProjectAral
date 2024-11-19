@@ -1,0 +1,2 @@
+ALTER TABLE food_items
+ADD COLUMN image_url VARCHAR(255) DEFAULT NULL;
